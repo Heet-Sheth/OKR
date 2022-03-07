@@ -1,4 +1,4 @@
-import "./style/styles.css";
+import "./Components/style/styles.css";
 import "./App.css";
 import NavBar from "./Components/Navbar";
 import LowerBody from "./Components/lowerBody";
