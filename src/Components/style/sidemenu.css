@@ -1,0 +1,32 @@
+.side-menu {
+  position: relative;
+  height: 100%;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.side-menu .expand-button {
+  border: 3px solid yellow;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 50%;
+  color: yellow;
+  position: relative;
+  text-align: center;
+  font-size: 1.1em;
+  top: 15px;
+  right: 10px;
+}
+.side-menu .menu-item-container {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.side-menu .menu-item {
+  color: yellow;
+  margin: 10px 0;
+}
