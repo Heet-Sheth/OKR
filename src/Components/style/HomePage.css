@@ -1,8 +1,8 @@
-.HomePage{
-    position:fixed;
-    left: 50px;
-    top: 130px;
-    right: 0;
-    bottom: 0;
-    background-color: bisque;
+.HomePage {
+  position: fixed;
+  left: 50px;
+  top: 130px;
+  right: 0;
+  bottom: 0;
+  background-color: bisque;
 }
