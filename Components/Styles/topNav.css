@@ -8,6 +8,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.shrinked {
+  left: 320px;
+}
 .top-nav .logo-text {
   font-size: 1.25rem;
 }

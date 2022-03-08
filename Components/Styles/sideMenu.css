@@ -6,3 +6,32 @@
   width: 70px;
   background-color: #132746;
 }
+.side-menu .expander {
+  position: absolute;
+  display: block;
+  right: 5px;
+  top: 10px;
+  color: white;
+  font-weight: bold;
+}
+.side-menu .side-menu-item {
+  color: white;
+  margin: 12px 0;
+  font-size: 1.15em;
+}
+.side-menu .container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.side-menu .link-active {
+  background-color: rgba(200, 200, 200, 0.3);
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+}
+.side-menu .link {
+  color: white;
+}

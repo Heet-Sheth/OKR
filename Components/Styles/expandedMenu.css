@@ -1,0 +1,27 @@
+.expanded-menu {
+  background-color: burlywood;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 70px;
+  width: 250px;
+}
+.expanded-menu .container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.expanded-menu .container > * {
+  margin: 5px 0;
+  color: white;
+}
+.expanded-menu .line {
+  width: 100%;
+  margin: 5px 0;
+  height: 2px;
+  background-color: black;
+}
