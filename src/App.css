@@ -1,6 +1,6 @@
 .App {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 3% 97%;
 }
 
 .App-logo {

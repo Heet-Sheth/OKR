@@ -1,13 +1,13 @@
-import "./Components/style/styles.css";
 import "./App.css";
-import NavBar from "./Components/Navbar";
-import LowerBody from "./Components/lowerBody";
+import "./Components/Styles/style.css";
+import SideMenu from "./Components/NavBar/sideMenu";
+import RightBody from "./Components/RightBody";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <LowerBody />
+      <SideMenu />
+      <RightBody />
     </div>
   );
 }
