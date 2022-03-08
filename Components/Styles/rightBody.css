@@ -1,0 +1,8 @@
+.right-body {
+  background-color: aqua;
+  left: 70px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+}
