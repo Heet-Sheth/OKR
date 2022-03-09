@@ -7,15 +7,14 @@ import { useState } from "react";
 function App() {
   const [showExpandedMenu, setExpendedMenu] = useState(false);
   const [expandData, setExpandData] = useState([]);
-  console.log(expandData);
   return (
     <div className="App">
+      <RightBody doShrink={showExpandedMenu} />
       <SideMenu
         data={expandData}
         dataSetter={setExpandData}
         setterFunction={setExpendedMenu}
       />
-      <RightBody doShrink={showExpandedMenu} />
     </div>
   );
 }

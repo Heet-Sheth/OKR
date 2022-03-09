@@ -3,11 +3,35 @@
   left: 0;
   top: 0;
   bottom: 0;
-  width: 70px;
+  width: 50px;
   background-color: #132746;
 }
 .opened {
   width: 220px;
+}
+.side-menu .side-box-container {
+  width: 160px;
+  position: absolute;
+  left: 55px;
+  height: max-content;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  color: black;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: -23px;
+}
+.side-menu .side-menu-item:hover .side-box-container {
+  display: flex;
+}
+.side-menu .side-box-container > * {
+  margin: 3px 0 0 0;
+  padding: 2px;
+}
+.side-menu .side-box-header {
+  background-color: #f0f0f0;
+  border-radius: 15px;
 }
 .side-menu .expander {
   position: absolute;
