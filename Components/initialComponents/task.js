@@ -8,10 +8,9 @@ function TASK(props) {
       "My Tasks",
       "My Tasks for Others",
       "My Org's Tasks",
-      "All Employees' Tasks",
     ]);
   }, []);
-  return <div>TASK</div>;
+  return <div></div>;
 }
 
 export default TASK;

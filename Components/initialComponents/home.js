@@ -3,19 +3,9 @@ import React, { useEffect } from "react";
 function HOME(props) {
   const { dataSetter } = props;
   useEffect(() => {
-    dataSetter([
-      "Alignments",
-      "Action Center",
-      "Alignments and Dependencies",
-      "Notes",
-      "Company Dashboard",
-      "Department Hierarchy",
-      "Kpi Boards",
-      "News Feed",
-      "Organization Hierarchy",
-    ]);
+    dataSetter(["Alignments", "Action Center", "Dependencies", "Notes"]);
   }, []);
-  return <div>HOME</div>;
+  return <div></div>;
 }
 
 export default HOME;

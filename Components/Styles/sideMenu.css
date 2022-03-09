@@ -6,6 +6,9 @@
   width: 70px;
   background-color: #132746;
 }
+.opened {
+  width: 220px;
+}
 .side-menu .expander {
   position: absolute;
   display: block;
@@ -17,14 +20,26 @@
 .side-menu .side-menu-item {
   color: white;
   margin: 12px 0;
-  font-size: 1.15em;
 }
 .side-menu .container {
   display: flex;
   width: 100%;
-  align-items: center;
-  flex-direction: column;
+  justify-content: flex-start;
   margin-top: 50px;
+}
+.side-menu .data-left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.side-menu .data-left-opened {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.side-menu .data-right {
+  display: flex;
+  flex-direction: column;
 }
 .side-menu .link-active {
   background-color: rgba(200, 200, 200, 0.3);

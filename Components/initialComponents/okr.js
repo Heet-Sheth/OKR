@@ -8,16 +8,9 @@ function OKR(props) {
       "My Individual OKRs",
       "Developer OKRs",
       "My Org's OKRs",
-      "Company OKRs",
-      "Shared OKRs",
-      "OKRs By KPIs",
-      "All Employees' OKRs",
-      "All Departments' OKRs",
-      "Managers' OKRs",
-      "OKRs Program Status",
     ]);
   }, []);
-  return <div>OKR</div>;
+  return <div></div>;
 }
 
 export default OKR;
