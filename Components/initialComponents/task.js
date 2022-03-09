@@ -9,7 +9,7 @@ function TASK(props) {
       "My Tasks for Others",
       "My Org's Tasks",
     ]);
-  }, []);
+  }, [dataSetter]);
   return <div></div>;
 }
 

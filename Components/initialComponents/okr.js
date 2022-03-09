@@ -9,7 +9,7 @@ function OKR(props) {
       "Developer OKRs",
       "My Org's OKRs",
     ]);
-  }, []);
+  }, [dataSetter]);
   return <div></div>;
 }
 
